@@ -103,8 +103,6 @@ def putData(connection, query):
     except mysql.connector.Error as error:
         print(f"Failed to execute query: {error}")
 
-import mysql.connector
-
 def execQuery(connection, query):
     """
     Executes a query on the MySQL database and prints the server's response.
